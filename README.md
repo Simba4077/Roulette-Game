@@ -1,4 +1,4 @@
-__Roulette__
+# __Roulette__
 
 Recreating game logic from Buckshot Roulette. 
 
