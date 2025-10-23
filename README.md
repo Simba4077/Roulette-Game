@@ -1,4 +1,4 @@
-# __Roulette__
+# __Python Roulette Game__
 
 Recreating game logic from Buckshot Roulette. 
 
