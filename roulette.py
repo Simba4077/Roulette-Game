@@ -67,7 +67,7 @@ def init():
 
 
 def opening_remark():
-    print('''Today we will be playing a game of mortality, a game of guns and risks\nLet's play roulette.\nTo play the game, you need to know the rules over course\nFor starters, you have a few options for every turn\nEither shoot your neighbor or shoot yourself, that's really all there is to it\nYou'll either blow yourself up or the person next to you, your choice\nJust know that if you shoot yourself with an empty shell, its still your turn\nIf you shoot someone else or you shoot yourself with a loaded shell, it's the next player's turn\nNow I'm sure you're all eager to get started\nGive me some information and we'll begin muahahaha''')
+    print('''Today we will be playing a game of mortality, a game of guns and risks\nLet's play roulette.\nTo play the game, you need to know the rules of course\nYou have a few options for every turn\nEither shoot your neighbor or shoot yourself, that's really all there is to it\nYou'll either blow yourself up or the person next to you, your choice\nJust know that if you shoot yourself with an empty shell, its still your turn\nIf you shoot someone else or you shoot yourself with a loaded shell, it's the next player's turn\nNow I'm sure you're all eager to get started\nGive me some information and we'll begin muahahaha''')
 
 def add_remark():
     print('''Now you each get a maximum of 5 lives. \nLoading your lives now...\nHere they are!''')
