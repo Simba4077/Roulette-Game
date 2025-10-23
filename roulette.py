@@ -1,4 +1,4 @@
-# Russian Roulette
+# Recreation of Buckshot Roulette Game logic
 # must have:
 # Randomizes Amount of bullets each round + Randomizes amount of live/non live ammo.
 
@@ -67,32 +67,12 @@ def init():
 
 
 def opening_remark():
-    print("Hello there, welcome to a game of torture, fame, and fortune")
-    print("Today we will be playing a game of mortality, a game of guns and risks")
-    print("Yes yes, let's play some roulette")
-    print("To play the game, you need to know the rules over course")
-    print("For starters, you have a few options for every turn")
-    print("Either shoot your neighbor or shoot yourself, that's really all there is to it")
-    print("You'll either blow yourself up or the person next to you, your choice")
-    print("Just know that if you shoot yourself with an empty shell, its still your turn")
-    print("If you shoot someone else or you shoot yourself with a loaded shell, it's the next player's turn")
-    print("Now I'm sure you're all eager to get started")
-    print("Give me some information and we'll begin muahahaha")
+    print('''Today we will be playing a game of mortality, a game of guns and risks\nLet's play roulette.\nTo play the game, you need to know the rules over course\nFor starters, you have a few options for every turn\nEither shoot your neighbor or shoot yourself, that's really all there is to it\nYou'll either blow yourself up or the person next to you, your choice\nJust know that if you shoot yourself with an empty shell, its still your turn\nIf you shoot someone else or you shoot yourself with a loaded shell, it's the next player's turn\nNow I'm sure you're all eager to get started\nGive me some information and we'll begin muahahaha''')
 
 def add_remark():
-    print("Now you each get a maximum of 5 lives. Yes that's right, after 5, you don't get a sixth chance")
-    print("Loading your lives now...")
-    print("Here they are!")
+    print('''Now you each get a maximum of 5 lives. \nLoading your lives now...\nHere they are!''')
     print_player_lives()
-    print("We'll have a couple of rounds, around 5...if more than one of you survives somehow, you can split the money")
-    print("Sharing doesn't sound so appealing, so I'm sure all of you will want the next person gone")
-    print("Oh I almost forgot to mention, everyone gets 3 unique items to their name that they can use to one up their opponent in any round")
-    print("These are the items and their descriptions:")
-    print("Item #1 - Saw:[ Inflicts double the damage if hit with a live bullet ]")
-    print("Item #2 - Handcuffs:[ Choose a player to skip their turn ]")
-    print("Item #3 - Magnifying glass:[ Cheat and view the current bullet in the chamber")
-    print("Well, that's all to it. I say let's get started.")
-    print("Player 0 gets to go first!")
+    print('''We'll have a couple of rounds, around 5...if more than one of you survives somehow, you can split the money\nSharing doesn't sound so appealing, so I'm sure all of you will want the next person gone\nThese are the items and their descriptions:\nItem #1 - Saw:[ Inflicts double the damage if hit with a live bullet ]\nItem #2 - Handcuffs:[ Choose a player to skip their turn ]\nItem #3 - Magnifying glass:[ Cheat and view the current bullet in the chamber\nWell, that's all to it. I say let's get started.\nPlayer 0 gets to go first!''')
     
 
 def ammo_setup():
